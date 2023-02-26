@@ -1,0 +1,46 @@
+samp{
+    display: none;
+    transition-duration: 200ms;
+  }
+      
+#jom:hover + samp{
+
+    display: inline-flex;
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+#jom{
+  color: aliceblue;
+  margin-left: 10%;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition-duration: 300ms;
+}
+#jom:hover{
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  cursor: pointer;
+}
+body{
+  background-color: rgb(7, 68, 47);
+}
+#ma{
+  background-color: rgb(21, 111, 11);
+  font-size: 30px;
+  font-family: fantasy;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#bon{
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10%;
+}
+#sr{
+  font-size: 23px;
+}
